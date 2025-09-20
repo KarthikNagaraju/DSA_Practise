@@ -1,9 +1,10 @@
 package org.learning;
 
+import org.learning.BinarySearch.HigherBound;
+import org.learning.BinarySearch.LowerBound;
 import org.learning.Strings.*;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
     public static void main(String[] args) {
 
@@ -32,6 +33,14 @@ public class Main {
         System.out.println(s.length());
 
         BeautySum.beautySum("aabcb");
+
+        ValidPalindrome.isPalindrome("A man, a plan, a canal: Panama");
+
+        RemoveAllOccurance.removeOccurrences("daabcbaabcbc","abc");
+
+        LowerBound.lowerBound(new int[]{3,5,8,9,15,19},9);
+
+        HigherBound.higherBound(new int[]{3,5,8,9,15,19},9);
 
     }
 }
